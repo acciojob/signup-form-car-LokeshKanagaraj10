@@ -7,7 +7,31 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1>SignUp Form</h1>
+	<form action="">
+	<label for="name"  id="name">Name*</label>
+	<input type="text" required placeholder="Name">
+	<br>
+	<label for="email"  id="email">Email*</label>
+	<input type="email" required placeholder="Email">
+	<br>
+	<label for="Gender">Gender*</label>
+	<select name="Select" required id="select">
+		<option value="Gender">Male</option>
+		<option value="Gender">Female</option>
+		<option value="Gender">Other</option>
+	</select>
+	<br>
+	<label for="Phone Number">Phone Number*</label>
+	<input type="contact-no" required id="inputField" max="10" textmask="##########" row="1" pattern=".{10}" placeholder="Phone Number">
+	<br>
+	<label for="password" class="password">Password*</label>
+	<input type="password" required>
+	<br>
+	<button>Submit button</button>
+	
+
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
